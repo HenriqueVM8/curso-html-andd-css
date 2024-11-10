@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    position: relative;
+}
+
+th {
+    border: 1px solid black;
+    width: 150px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+thead, tfoot {
+   background-color: rgba(128, 128, 128, 0.918);
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color:  rgba(128, 128, 128, 0.918);
+}
+
+tbody > tr:nth-child(odd) { /* 2n-1 */
+    background-color: white;
+}
+
+tbody > tr:nth-child(even) { /* 2n */ 
+    background-color:   rgba(131, 131, 131, 0.377);
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.numero {
+    text-align: right;
+}
